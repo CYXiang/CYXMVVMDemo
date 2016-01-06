@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49DA976E1C3CB00B00A73B43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA976D1C3CB00B00A73B43 /* main.m */; };
+		49DA97711C3CB00B00A73B43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA97701C3CB00B00A73B43 /* AppDelegate.m */; };
+		49DA97741C3CB00B00A73B43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA97731C3CB00B00A73B43 /* ViewController.m */; };
+		49DA97771C3CB00B00A73B43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DA97751C3CB00B00A73B43 /* Main.storyboard */; };
+		49DA97791C3CB00B00A73B43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49DA97781C3CB00B00A73B43 /* Assets.xcassets */; };
+		49DA977C1C3CB00B00A73B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DA977A1C3CB00B00A73B43 /* LaunchScreen.storyboard */; };
+		49DA97871C3CB00B00A73B43 /* CYXMVVMDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA97861C3CB00B00A73B43 /* CYXMVVMDemoTests.m */; };
+		49DA97921C3CB00B00A73B43 /* CYXMVVMDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA97911C3CB00B00A73B43 /* CYXMVVMDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49DA97831C3CB00B00A73B43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49DA97611C3CB00B00A73B43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49DA97681C3CB00B00A73B43;
+			remoteInfo = CYXMVVMDemo;
+		};
+		49DA978E1C3CB00B00A73B43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49DA97611C3CB00B00A73B43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49DA97681C3CB00B00A73B43;
+			remoteInfo = CYXMVVMDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49DA97691C3CB00B00A73B43 /* CYXMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYXMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49DA976D1C3CB00B00A73B43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		49DA976F1C3CB00B00A73B43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		49DA97701C3CB00B00A73B43 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		49DA97721C3CB00B00A73B43 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		49DA97731C3CB00B00A73B43 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		49DA97761C3CB00B00A73B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49DA97781C3CB00B00A73B43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49DA977B1C3CB00B00A73B43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49DA977D1C3CB00B00A73B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49DA97821C3CB00B00A73B43 /* CYXMVVMDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYXMVVMDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49DA97861C3CB00B00A73B43 /* CYXMVVMDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYXMVVMDemoTests.m; sourceTree = "<group>"; };
+		49DA97881C3CB00B00A73B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49DA978D1C3CB00B00A73B43 /* CYXMVVMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYXMVVMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		49DA97911C3CB00B00A73B43 /* CYXMVVMDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYXMVVMDemoUITests.m; sourceTree = "<group>"; };
+		49DA97931C3CB00B00A73B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49DA97661C3CB00B00A73B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49DA977F1C3CB00B00A73B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49DA978A1C3CB00B00A73B43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49DA97601C3CB00B00A73B43 = {
+			isa = PBXGroup;
+			children = (
+				49DA976B1C3CB00B00A73B43 /* CYXMVVMDemo */,
+				49DA97851C3CB00B00A73B43 /* CYXMVVMDemoTests */,
+				49DA97901C3CB00B00A73B43 /* CYXMVVMDemoUITests */,
+				49DA976A1C3CB00B00A73B43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49DA976A1C3CB00B00A73B43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49DA97691C3CB00B00A73B43 /* CYXMVVMDemo.app */,
+				49DA97821C3CB00B00A73B43 /* CYXMVVMDemoTests.xctest */,
+				49DA978D1C3CB00B00A73B43 /* CYXMVVMDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49DA976B1C3CB00B00A73B43 /* CYXMVVMDemo */ = {
+			isa = PBXGroup;
+			children = (
+				49DA976F1C3CB00B00A73B43 /* AppDelegate.h */,
+				49DA97701C3CB00B00A73B43 /* AppDelegate.m */,
+				49DA97721C3CB00B00A73B43 /* ViewController.h */,
+				49DA97731C3CB00B00A73B43 /* ViewController.m */,
+				49DA97751C3CB00B00A73B43 /* Main.storyboard */,
+				49DA97781C3CB00B00A73B43 /* Assets.xcassets */,
+				49DA977A1C3CB00B00A73B43 /* LaunchScreen.storyboard */,
+				49DA977D1C3CB00B00A73B43 /* Info.plist */,
+				49DA976C1C3CB00B00A73B43 /* Supporting Files */,
+			);
+			path = CYXMVVMDemo;
+			sourceTree = "<group>";
+		};
+		49DA976C1C3CB00B00A73B43 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49DA976D1C3CB00B00A73B43 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		49DA97851C3CB00B00A73B43 /* CYXMVVMDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				49DA97861C3CB00B00A73B43 /* CYXMVVMDemoTests.m */,
+				49DA97881C3CB00B00A73B43 /* Info.plist */,
+			);
+			path = CYXMVVMDemoTests;
+			sourceTree = "<group>";
+		};
+		49DA97901C3CB00B00A73B43 /* CYXMVVMDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49DA97911C3CB00B00A73B43 /* CYXMVVMDemoUITests.m */,
+				49DA97931C3CB00B00A73B43 /* Info.plist */,
+			);
+			path = CYXMVVMDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49DA97681C3CB00B00A73B43 /* CYXMVVMDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49DA97961C3CB00B00A73B43 /* Build configuration list for PBXNativeTarget "CYXMVVMDemo" */;
+			buildPhases = (
+				49DA97651C3CB00B00A73B43 /* Sources */,
+				49DA97661C3CB00B00A73B43 /* Frameworks */,
+				49DA97671C3CB00B00A73B43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYXMVVMDemo;
+			productName = CYXMVVMDemo;
+			productReference = 49DA97691C3CB00B00A73B43 /* CYXMVVMDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49DA97811C3CB00B00A73B43 /* CYXMVVMDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49DA97991C3CB00B00A73B43 /* Build configuration list for PBXNativeTarget "CYXMVVMDemoTests" */;
+			buildPhases = (
+				49DA977E1C3CB00B00A73B43 /* Sources */,
+				49DA977F1C3CB00B00A73B43 /* Frameworks */,
+				49DA97801C3CB00B00A73B43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49DA97841C3CB00B00A73B43 /* PBXTargetDependency */,
+			);
+			name = CYXMVVMDemoTests;
+			productName = CYXMVVMDemoTests;
+			productReference = 49DA97821C3CB00B00A73B43 /* CYXMVVMDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49DA978C1C3CB00B00A73B43 /* CYXMVVMDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49DA979C1C3CB00B00A73B43 /* Build configuration list for PBXNativeTarget "CYXMVVMDemoUITests" */;
+			buildPhases = (
+				49DA97891C3CB00B00A73B43 /* Sources */,
+				49DA978A1C3CB00B00A73B43 /* Frameworks */,
+				49DA978B1C3CB00B00A73B43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49DA978F1C3CB00B00A73B43 /* PBXTargetDependency */,
+			);
+			name = CYXMVVMDemoUITests;
+			productName = CYXMVVMDemoUITests;
+			productReference = 49DA978D1C3CB00B00A73B43 /* CYXMVVMDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49DA97611C3CB00B00A73B43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = cyx;
+				TargetAttributes = {
+					49DA97681C3CB00B00A73B43 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3T72HFU8Y8;
+					};
+					49DA97811C3CB00B00A73B43 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3T72HFU8Y8;
+						TestTargetID = 49DA97681C3CB00B00A73B43;
+					};
+					49DA978C1C3CB00B00A73B43 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 3T72HFU8Y8;
+						TestTargetID = 49DA97681C3CB00B00A73B43;
+					};
+				};
+			};
+			buildConfigurationList = 49DA97641C3CB00B00A73B43 /* Build configuration list for PBXProject "CYXMVVMDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49DA97601C3CB00B00A73B43;
+			productRefGroup = 49DA976A1C3CB00B00A73B43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49DA97681C3CB00B00A73B43 /* CYXMVVMDemo */,
+				49DA97811C3CB00B00A73B43 /* CYXMVVMDemoTests */,
+				49DA978C1C3CB00B00A73B43 /* CYXMVVMDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49DA97671C3CB00B00A73B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DA977C1C3CB00B00A73B43 /* LaunchScreen.storyboard in Resources */,
+				49DA97791C3CB00B00A73B43 /* Assets.xcassets in Resources */,
+				49DA97771C3CB00B00A73B43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49DA97801C3CB00B00A73B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49DA978B1C3CB00B00A73B43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49DA97651C3CB00B00A73B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DA97741C3CB00B00A73B43 /* ViewController.m in Sources */,
+				49DA97711C3CB00B00A73B43 /* AppDelegate.m in Sources */,
+				49DA976E1C3CB00B00A73B43 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49DA977E1C3CB00B00A73B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DA97871C3CB00B00A73B43 /* CYXMVVMDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49DA97891C3CB00B00A73B43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49DA97921C3CB00B00A73B43 /* CYXMVVMDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49DA97841C3CB00B00A73B43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49DA97681C3CB00B00A73B43 /* CYXMVVMDemo */;
+			targetProxy = 49DA97831C3CB00B00A73B43 /* PBXContainerItemProxy */;
+		};
+		49DA978F1C3CB00B00A73B43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49DA97681C3CB00B00A73B43 /* CYXMVVMDemo */;
+			targetProxy = 49DA978E1C3CB00B00A73B43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49DA97751C3CB00B00A73B43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49DA97761C3CB00B00A73B43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49DA977A1C3CB00B00A73B43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49DA977B1C3CB00B00A73B43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49DA97941C3CB00B00A73B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49DA97951C3CB00B00A73B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49DA97971C3CB00B00A73B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYXMVVMDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feni.h.CYXMVVMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		49DA97981C3CB00B00A73B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYXMVVMDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feni.h.CYXMVVMDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		49DA979A1C3CB00B00A73B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CYXMVVMDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feni.h.CYXMVVMDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYXMVVMDemo.app/CYXMVVMDemo";
+			};
+			name = Debug;
+		};
+		49DA979B1C3CB00B00A73B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CYXMVVMDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feni.h.CYXMVVMDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYXMVVMDemo.app/CYXMVVMDemo";
+			};
+			name = Release;
+		};
+		49DA979D1C3CB00B00A73B43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CYXMVVMDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feni.h.CYXMVVMDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CYXMVVMDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		49DA979E1C3CB00B00A73B43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CYXMVVMDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feni.h.CYXMVVMDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CYXMVVMDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49DA97641C3CB00B00A73B43 /* Build configuration list for PBXProject "CYXMVVMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49DA97941C3CB00B00A73B43 /* Debug */,
+				49DA97951C3CB00B00A73B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49DA97961C3CB00B00A73B43 /* Build configuration list for PBXNativeTarget "CYXMVVMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49DA97971C3CB00B00A73B43 /* Debug */,
+				49DA97981C3CB00B00A73B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49DA97991C3CB00B00A73B43 /* Build configuration list for PBXNativeTarget "CYXMVVMDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49DA979A1C3CB00B00A73B43 /* Debug */,
+				49DA979B1C3CB00B00A73B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		49DA979C1C3CB00B00A73B43 /* Build configuration list for PBXNativeTarget "CYXMVVMDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49DA979D1C3CB00B00A73B43 /* Debug */,
+				49DA979E1C3CB00B00A73B43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49DA97611C3CB00B00A73B43 /* Project object */;
+}
