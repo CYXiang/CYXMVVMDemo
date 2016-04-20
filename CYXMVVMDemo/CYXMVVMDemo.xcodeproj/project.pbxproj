@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		494863491CC71B34004EE157 /* CYXMainTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494863431CC71B34004EE157 /* CYXMainTabbarController.m */; };
+		4948637A1CC72047004EE157 /* CYXMainTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494863571CC72047004EE157 /* CYXMainTabbarController.m */; };
+		4948637E1CC720A5004EE157 /* CYXLoginSuccessController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4948637C1CC720A5004EE157 /* CYXLoginSuccessController.m */; };
+		494863821CC72175004EE157 /* CYXLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 494863811CC72175004EE157 /* CYXLoginViewModel.m */; };
+		494863861CC72879004EE157 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 494863851CC72879004EE157 /* UIView+Frame.m */; };
 		49DA976E1C3CB00B00A73B43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA976D1C3CB00B00A73B43 /* main.m */; };
 		49DA97711C3CB00B00A73B43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA97701C3CB00B00A73B43 /* AppDelegate.m */; };
 		49DA97741C3CB00B00A73B43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA97731C3CB00B00A73B43 /* ViewController.m */; };
@@ -16,6 +19,8 @@
 		49DA977C1C3CB00B00A73B43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49DA977A1C3CB00B00A73B43 /* LaunchScreen.storyboard */; };
 		49DA97871C3CB00B00A73B43 /* CYXMVVMDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA97861C3CB00B00A73B43 /* CYXMVVMDemoTests.m */; };
 		49DA97921C3CB00B00A73B43 /* CYXMVVMDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA97911C3CB00B00A73B43 /* CYXMVVMDemoUITests.m */; };
+		49F990291CC734E100BB1C71 /* CYXLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F990281CC734E100BB1C71 /* CYXLoginView.m */; };
+		49F9902D1CC748AE00BB1C71 /* CYXLoginSuccessController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F9902C1CC748AE00BB1C71 /* CYXLoginSuccessController.storyboard */; };
 		8BC526666303864552115303 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D2A2386A4B04D84683E9DE1B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -37,8 +42,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		494863421CC71B34004EE157 /* CYXMainTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXMainTabbarController.h; sourceTree = "<group>"; };
-		494863431CC71B34004EE157 /* CYXMainTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXMainTabbarController.m; sourceTree = "<group>"; };
+		494863561CC72047004EE157 /* CYXMainTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXMainTabbarController.h; sourceTree = "<group>"; };
+		494863571CC72047004EE157 /* CYXMainTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXMainTabbarController.m; sourceTree = "<group>"; };
+		4948637B1CC720A5004EE157 /* CYXLoginSuccessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXLoginSuccessController.h; sourceTree = "<group>"; };
+		4948637C1CC720A5004EE157 /* CYXLoginSuccessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXLoginSuccessController.m; sourceTree = "<group>"; };
+		494863801CC72175004EE157 /* CYXLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXLoginViewModel.h; sourceTree = "<group>"; };
+		494863811CC72175004EE157 /* CYXLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXLoginViewModel.m; sourceTree = "<group>"; };
+		494863831CC721A2004EE157 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		494863841CC72879004EE157 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		494863851CC72879004EE157 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		49DA97691C3CB00B00A73B43 /* CYXMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYXMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DA976D1C3CB00B00A73B43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		49DA976F1C3CB00B00A73B43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,6 +67,9 @@
 		49DA978D1C3CB00B00A73B43 /* CYXMVVMDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYXMVVMDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DA97911C3CB00B00A73B43 /* CYXMVVMDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CYXMVVMDemoUITests.m; sourceTree = "<group>"; };
 		49DA97931C3CB00B00A73B43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F990271CC734E100BB1C71 /* CYXLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXLoginView.h; sourceTree = "<group>"; };
+		49F990281CC734E100BB1C71 /* CYXLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXLoginView.m; sourceTree = "<group>"; };
+		49F9902C1CC748AE00BB1C71 /* CYXLoginSuccessController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CYXLoginSuccessController.storyboard; sourceTree = "<group>"; };
 		66CB1CCD25517DD2E86241E4 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D2A2386A4B04D84683E9DE1B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC035DC5309FEDF9D7EE7E6 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,69 +118,383 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		4948633F1CC71B34004EE157 /* classes */ = {
+		4948634A1CC72047004EE157 /* classes */ = {
 			isa = PBXGroup;
 			children = (
-				494863401CC71B34004EE157 /* discovery(发现) */,
-				494863411CC71B34004EE157 /* main */,
-				494863441CC71B34004EE157 /* my(我的) */,
-				494863451CC71B34004EE157 /* other */,
-				494863461CC71B34004EE157 /* read(阅读) */,
-				494863471CC71B34004EE157 /* tool */,
-				494863481CC71B34004EE157 /* video(试听) */,
+				4948634B1CC72047004EE157 /* discovery(发现) */,
+				494863511CC72047004EE157 /* libraries */,
+				494863521CC72047004EE157 /* main */,
+				4948635C1CC72047004EE157 /* my(我的) */,
+				494863621CC72047004EE157 /* other */,
+				494863681CC72047004EE157 /* read(阅读) */,
+				4948636E1CC72047004EE157 /* tool */,
+				494863741CC72047004EE157 /* video(试听) */,
 			);
 			path = classes;
 			sourceTree = "<group>";
 		};
-		494863401CC71B34004EE157 /* discovery(发现) */ = {
+		4948634B1CC72047004EE157 /* discovery(发现) */ = {
 			isa = PBXGroup;
 			children = (
+				4948634C1CC72047004EE157 /* Controller */,
+				4948634D1CC72047004EE157 /* Model */,
+				4948634E1CC72047004EE157 /* View */,
+				4948634F1CC72047004EE157 /* ViewModel */,
 			);
 			path = "discovery(发现)";
 			sourceTree = "<group>";
 		};
-		494863411CC71B34004EE157 /* main */ = {
+		4948634C1CC72047004EE157 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				494863421CC71B34004EE157 /* CYXMainTabbarController.h */,
-				494863431CC71B34004EE157 /* CYXMainTabbarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4948634D1CC72047004EE157 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4948634E1CC72047004EE157 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4948634F1CC72047004EE157 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				494863501CC72047004EE157 /* Request */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		494863501CC72047004EE157 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		494863511CC72047004EE157 /* libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = libraries;
+			sourceTree = "<group>";
+		};
+		494863521CC72047004EE157 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				494863531CC72047004EE157 /* Categories */,
+				494863541CC72047004EE157 /* Config */,
+				494863551CC72047004EE157 /* Controller */,
+				494863581CC72047004EE157 /* Model */,
+				494863591CC72047004EE157 /* View */,
+				4948635A1CC72047004EE157 /* ViewModel */,
 			);
 			path = main;
 			sourceTree = "<group>";
 		};
-		494863441CC71B34004EE157 /* my(我的) */ = {
+		494863531CC72047004EE157 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				494863841CC72879004EE157 /* UIView+Frame.h */,
+				494863851CC72879004EE157 /* UIView+Frame.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		494863541CC72047004EE157 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				494863831CC721A2004EE157 /* PrefixHeader.pch */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		494863551CC72047004EE157 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				494863561CC72047004EE157 /* CYXMainTabbarController.h */,
+				494863571CC72047004EE157 /* CYXMainTabbarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		494863581CC72047004EE157 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		494863591CC72047004EE157 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4948635A1CC72047004EE157 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4948635B1CC72047004EE157 /* Request */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4948635B1CC72047004EE157 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		4948635C1CC72047004EE157 /* my(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				4948635D1CC72047004EE157 /* Controller */,
+				4948635E1CC72047004EE157 /* Model */,
+				4948635F1CC72047004EE157 /* View */,
+				494863601CC72047004EE157 /* ViewModel */,
 			);
 			path = "my(我的)";
 			sourceTree = "<group>";
 		};
-		494863451CC71B34004EE157 /* other */ = {
+		4948635D1CC72047004EE157 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				4948637B1CC720A5004EE157 /* CYXLoginSuccessController.h */,
+				4948637C1CC720A5004EE157 /* CYXLoginSuccessController.m */,
+				49F9902C1CC748AE00BB1C71 /* CYXLoginSuccessController.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4948635E1CC72047004EE157 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4948635F1CC72047004EE157 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				49F990271CC734E100BB1C71 /* CYXLoginView.h */,
+				49F990281CC734E100BB1C71 /* CYXLoginView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		494863601CC72047004EE157 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				494863611CC72047004EE157 /* Request */,
+				494863801CC72175004EE157 /* CYXLoginViewModel.h */,
+				494863811CC72175004EE157 /* CYXLoginViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		494863611CC72047004EE157 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		494863621CC72047004EE157 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				494863631CC72047004EE157 /* Controller */,
+				494863641CC72047004EE157 /* Model */,
+				494863651CC72047004EE157 /* View */,
+				494863661CC72047004EE157 /* ViewModel */,
 			);
 			path = other;
 			sourceTree = "<group>";
 		};
-		494863461CC71B34004EE157 /* read(阅读) */ = {
+		494863631CC72047004EE157 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		494863641CC72047004EE157 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		494863651CC72047004EE157 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		494863661CC72047004EE157 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				494863671CC72047004EE157 /* Request */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		494863671CC72047004EE157 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		494863681CC72047004EE157 /* read(阅读) */ = {
+			isa = PBXGroup;
+			children = (
+				494863691CC72047004EE157 /* Controller */,
+				4948636A1CC72047004EE157 /* Model */,
+				4948636B1CC72047004EE157 /* View */,
+				4948636C1CC72047004EE157 /* ViewModel */,
 			);
 			path = "read(阅读)";
 			sourceTree = "<group>";
 		};
-		494863471CC71B34004EE157 /* tool */ = {
+		494863691CC72047004EE157 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4948636A1CC72047004EE157 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4948636B1CC72047004EE157 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4948636C1CC72047004EE157 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4948636D1CC72047004EE157 /* Request */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4948636D1CC72047004EE157 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		4948636E1CC72047004EE157 /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				4948636F1CC72047004EE157 /* Controller */,
+				494863701CC72047004EE157 /* Model */,
+				494863711CC72047004EE157 /* View */,
+				494863721CC72047004EE157 /* ViewModel */,
 			);
 			path = tool;
 			sourceTree = "<group>";
 		};
-		494863481CC71B34004EE157 /* video(试听) */ = {
+		4948636F1CC72047004EE157 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		494863701CC72047004EE157 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		494863711CC72047004EE157 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		494863721CC72047004EE157 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				494863731CC72047004EE157 /* Request */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		494863731CC72047004EE157 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		494863741CC72047004EE157 /* video(试听) */ = {
+			isa = PBXGroup;
+			children = (
+				494863751CC72047004EE157 /* Controller */,
+				494863761CC72047004EE157 /* Model */,
+				494863771CC72047004EE157 /* View */,
+				494863781CC72047004EE157 /* ViewModel */,
+			);
 			path = "video(试听)";
+			sourceTree = "<group>";
+		};
+		494863751CC72047004EE157 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		494863761CC72047004EE157 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		494863771CC72047004EE157 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		494863781CC72047004EE157 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				494863791CC72047004EE157 /* Request */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		494863791CC72047004EE157 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 		49DA97601C3CB00B00A73B43 = {
@@ -193,7 +522,7 @@
 		49DA976B1C3CB00B00A73B43 /* CYXMVVMDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4948633F1CC71B34004EE157 /* classes */,
+				4948634A1CC72047004EE157 /* classes */,
 				49DA976F1C3CB00B00A73B43 /* AppDelegate.h */,
 				49DA97701C3CB00B00A73B43 /* AppDelegate.m */,
 				49DA97721C3CB00B00A73B43 /* ViewController.h */,
@@ -298,6 +627,7 @@
 		49DA97611C3CB00B00A73B43 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CYX;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = cyx;
 				TargetAttributes = {
@@ -342,6 +672,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49F9902D1CC748AE00BB1C71 /* CYXLoginSuccessController.storyboard in Resources */,
 				49DA977C1C3CB00B00A73B43 /* LaunchScreen.storyboard in Resources */,
 				49DA97791C3CB00B00A73B43 /* Assets.xcassets in Resources */,
 				49DA97771C3CB00B00A73B43 /* Main.storyboard in Resources */,
@@ -418,7 +749,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				49DA97741C3CB00B00A73B43 /* ViewController.m in Sources */,
-				494863491CC71B34004EE157 /* CYXMainTabbarController.m in Sources */,
+				49F990291CC734E100BB1C71 /* CYXLoginView.m in Sources */,
+				494863821CC72175004EE157 /* CYXLoginViewModel.m in Sources */,
+				4948637E1CC720A5004EE157 /* CYXLoginSuccessController.m in Sources */,
+				494863861CC72879004EE157 /* UIView+Frame.m in Sources */,
+				4948637A1CC72047004EE157 /* CYXMainTabbarController.m in Sources */,
 				49DA97711C3CB00B00A73B43 /* AppDelegate.m in Sources */,
 				49DA976E1C3CB00B00A73B43 /* main.m in Sources */,
 			);
@@ -562,6 +897,7 @@
 			baseConfigurationReference = EAC035DC5309FEDF9D7EE7E6 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CYXMVVMDemo/classes/main/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = CYXMVVMDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.feni.h.CYXMVVMDemo;
@@ -574,6 +910,7 @@
 			baseConfigurationReference = 66CB1CCD25517DD2E86241E4 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CYXMVVMDemo/classes/main/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = CYXMVVMDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.feni.h.CYXMVVMDemo;
