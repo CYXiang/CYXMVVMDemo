@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4993B11B1C882E5800EAF9F7 /* CYXMainTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4993B11A1C882E5800EAF9F7 /* CYXMainTabbarController.m */; };
+		494863491CC71B34004EE157 /* CYXMainTabbarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 494863431CC71B34004EE157 /* CYXMainTabbarController.m */; };
 		49DA976E1C3CB00B00A73B43 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA976D1C3CB00B00A73B43 /* main.m */; };
 		49DA97711C3CB00B00A73B43 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA97701C3CB00B00A73B43 /* AppDelegate.m */; };
 		49DA97741C3CB00B00A73B43 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49DA97731C3CB00B00A73B43 /* ViewController.m */; };
@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4993B1191C882E5800EAF9F7 /* CYXMainTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXMainTabbarController.h; sourceTree = "<group>"; };
-		4993B11A1C882E5800EAF9F7 /* CYXMainTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXMainTabbarController.m; sourceTree = "<group>"; };
+		494863421CC71B34004EE157 /* CYXMainTabbarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYXMainTabbarController.h; sourceTree = "<group>"; };
+		494863431CC71B34004EE157 /* CYXMainTabbarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYXMainTabbarController.m; sourceTree = "<group>"; };
 		49DA97691C3CB00B00A73B43 /* CYXMVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYXMVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		49DA976D1C3CB00B00A73B43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		49DA976F1C3CB00B00A73B43 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,37 +103,69 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		4993B1151C882E1600EAF9F7 /* classes */ = {
+		4948633F1CC71B34004EE157 /* classes */ = {
 			isa = PBXGroup;
 			children = (
-				4993B1161C882E1600EAF9F7 /* main */,
-				4993B1171C882E1600EAF9F7 /* other */,
-				4993B1181C882E1600EAF9F7 /* tool */,
+				494863401CC71B34004EE157 /* discovery(发现) */,
+				494863411CC71B34004EE157 /* main */,
+				494863441CC71B34004EE157 /* my(我的) */,
+				494863451CC71B34004EE157 /* other */,
+				494863461CC71B34004EE157 /* read(阅读) */,
+				494863471CC71B34004EE157 /* tool */,
+				494863481CC71B34004EE157 /* video(试听) */,
 			);
 			path = classes;
 			sourceTree = "<group>";
 		};
-		4993B1161C882E1600EAF9F7 /* main */ = {
+		494863401CC71B34004EE157 /* discovery(发现) */ = {
 			isa = PBXGroup;
 			children = (
-				4993B1191C882E5800EAF9F7 /* CYXMainTabbarController.h */,
-				4993B11A1C882E5800EAF9F7 /* CYXMainTabbarController.m */,
+			);
+			path = "discovery(发现)";
+			sourceTree = "<group>";
+		};
+		494863411CC71B34004EE157 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				494863421CC71B34004EE157 /* CYXMainTabbarController.h */,
+				494863431CC71B34004EE157 /* CYXMainTabbarController.m */,
 			);
 			path = main;
 			sourceTree = "<group>";
 		};
-		4993B1171C882E1600EAF9F7 /* other */ = {
+		494863441CC71B34004EE157 /* my(我的) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "my(我的)";
+			sourceTree = "<group>";
+		};
+		494863451CC71B34004EE157 /* other */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = other;
 			sourceTree = "<group>";
 		};
-		4993B1181C882E1600EAF9F7 /* tool */ = {
+		494863461CC71B34004EE157 /* read(阅读) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "read(阅读)";
+			sourceTree = "<group>";
+		};
+		494863471CC71B34004EE157 /* tool */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = tool;
+			sourceTree = "<group>";
+		};
+		494863481CC71B34004EE157 /* video(试听) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "video(试听)";
 			sourceTree = "<group>";
 		};
 		49DA97601C3CB00B00A73B43 = {
@@ -161,7 +193,7 @@
 		49DA976B1C3CB00B00A73B43 /* CYXMVVMDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4993B1151C882E1600EAF9F7 /* classes */,
+				4948633F1CC71B34004EE157 /* classes */,
 				49DA976F1C3CB00B00A73B43 /* AppDelegate.h */,
 				49DA97701C3CB00B00A73B43 /* AppDelegate.m */,
 				49DA97721C3CB00B00A73B43 /* ViewController.h */,
@@ -386,7 +418,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49DA97741C3CB00B00A73B43 /* ViewController.m in Sources */,
-				4993B11B1C882E5800EAF9F7 /* CYXMainTabbarController.m in Sources */,
+				494863491CC71B34004EE157 /* CYXMainTabbarController.m in Sources */,
 				49DA97711C3CB00B00A73B43 /* AppDelegate.m in Sources */,
 				49DA976E1C3CB00B00A73B43 /* main.m in Sources */,
 			);
